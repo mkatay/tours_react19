@@ -4,7 +4,8 @@ import axios from "axios";
 //const url='https://course-api.com/react-tours-project'
 //const url = "/api/react-tours-project";
 //const url="https://viragbolt-backend.onrender.com/api/categories"
-const url="https://raw.githubusercontent.com/mkatay/json-tours/refs/heads/main/tours"
+const url="https://raw.githubusercontent.com/mkatay/json-tours/refs/heads/main/tours.json"
+
 // Promise cache-elés Suspense-hez
 let dataPromise;
 
