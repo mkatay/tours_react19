@@ -1,11 +1,11 @@
+import { Spinner } from '@material-tailwind/react'
 import React from 'react'
 
 export const Loading = () => {
   return (
-    <button type="button" className="bg-indigo-500 ..." disabled>
-    <svg className="mr-3 size-5 animate-spin ..." viewBox="0 0 24 24"></svg>
-  Loading....
-  </button>
+    <div className='flex-1 bg-indigo-900 flex justify-center items-center'>
+    <Spinner className="h-16 w-16"/>
+  </div>
   )
 }
 
